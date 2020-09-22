@@ -21,6 +21,19 @@
 </div>
 </p>
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 <p align="center">Charity Referral Program - donating 10% from referrals to the charity</p>
 <p align="center"><img src="http://mmoyeconsulting.com/uploads/3/5/6/8/35683304/gitglcen.jpg" width="457" height="206" /></p>
 <h2 style="text-align: center;">Scheduling & Contact</h2>
